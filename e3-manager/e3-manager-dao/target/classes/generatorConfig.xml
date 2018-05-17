@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+    <classPathEntry
+            location="E:\\project\\.m2\\repository\\mysql\\mysql-connector-java\\5.1.32\\mysql-connector-java-5.1.32.jar"/>
+    <context id="my" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/e3mall"
+                        userId="root"
+                        password="root"/>
+        <!--实体类-->
+        <javaModelGenerator targetPackage="com.sky.pojo"
+                            targetProject="E:/e3-parent/e3-manager/e3-manager-pojo/src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--mybatis映射xml文件-->
+        <sqlMapGenerator targetPackage="com.sky.dao"
+                         targetProject="E:/e3-parent/e3-manager/e3-manager-dao/src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!--mapper接口-->
+        <javaClientGenerator targetPackage="com.sky.mapper"
+                             targetProject="E:/e3-parent/e3-manager/e3-manager-dao/src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+
+        <table tableName="e3_student" domainObjectName="Student"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <!--<columnRenamingRule searchString="^D_"
+                                replaceString=""/>-->
+        </table>
+
+    </context>
+</generatorConfiguration>
