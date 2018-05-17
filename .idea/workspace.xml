@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aadff10b-8896-4633-8757-57c93c8837ba" name="Default" comment="" />
+    <list default="true" id="aadff10b-8896-4633-8757-57c93c8837ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../e3-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e3-parent/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/e3-common/target/" />
@@ -81,8 +83,8 @@
       <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../e3-parent/e3-manager/e3-manager-service/src/main/resources/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="54">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -180,6 +182,9 @@
       <find>getBean</find>
       <find>dubbo</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../e3-parent" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -281,6 +286,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -572,6 +578,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vcs.patch.path" value="$PROJECT_DIR$/../e3-parent" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -759,8 +766,16 @@
       <workItem from="1526464236120" duration="121000" />
       <workItem from="1526464485618" duration="5990000" />
       <workItem from="1526519694708" duration="2712000" />
-      <workItem from="1526535286925" duration="1802000" />
+      <workItem from="1526535286925" duration="2881000" />
     </task>
+    <task id="LOCAL-00001" summary="ssm 项目">
+      <created>1526537469136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526537469136</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,11 +811,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43015000" />
+    <option name="totallyTimeSpent" value="44094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -818,12 +832,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4983678" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="CheckStyle" order="8" weight="0.3297062" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.73775846" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7385621" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -876,6 +890,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ssm 项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm 项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1190,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../e3-parent/e3-manager/e3-manager-service/src/main/resources/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="54">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
